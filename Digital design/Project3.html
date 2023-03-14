@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-eqiv="X-UA-Compatible" contents="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+     
+        height: 100vh;
+        background-image: url("img/lips.webp");
+        /*
+            I used the body css property to adjust the height of the body as well has use one my images from my intercative narritive as the background.
+        */
+    }
+    header {
+        padding: 30px;
+        margin: 20px;
+        background-image: url("img/lips.webp");
+        background-position: center;
+        /*
+            I used the header css property to add a background image to the header (the same as the background) and then centered it and gave the text in a header margin as well as the header itself.
+        */
+    }
+
+    .clearFloat::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .buttonLink {
+        background-color:black;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        display: inline-block;
+       /*
+            I used the style element to to give the link to my interactive naritive a black background colour and also to remove the underline to make it look like a button.
+        */
+    }
+
+    p, h1, h2, h3, audio, a {
+        margin: 10px;
+        color: white;
+         /*
+            I used the style element to make that all text is white and that theres space between the paragraphys, headers, links, and audios.
+        */
+    }
+
+    a {
+            font-family: Shantell Sans;
+    }
+
+    
+</style>
+</head>
+<body style="margin:0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital@1&display=swap" rel="stylesheet"> 
+ <style>
+        @font-face {
+            font-family: Shantell Sans;
+            src url('fonts/Shantell_Sans.zip;')
+        }
+        p {
+            font-family: Shantell Sans;
+             /*
+            I wanted a unique font the majority of the text (apart from headings) so I went onto google fonts and selected the Shantell Sans font and copyed and pasted the link. I then used the style element to only apply the font to the paragraphs and the links. I also used style to create a space between the paragraphs.
+        */
+        }
+ </style>
+    <header>
+        <h1>Project 3 The Life Of Ruby Bridges</h1>
+        <!-- This is the main header for my page. I used the header element so that
+        screen readers and search engines can better understand the structure of my page  -->
+        </header>
+        
+        <p>This interactive narative I have produced is based on a true story about a girl called Ruby bridges who was one of the first black students to attend integrated schools in New Orleans. The aim of the interactive narrative is to produce secondary and post 16 educational resources for BBC Bitesize to educate young black girls thta feel like they can't fit in dominaly white areas. I want this story book to give people the same courage as Ruby had as well as educate them about her experience of going to William Frantz Elementary School. </p>
+        
+        <style>
+            video {
+                width: 55%;
+                float: left;
+                margin: 10px;
+                 /*
+            I used the video css property to adjust the size of the the video and to move it to the left hand side of the page.
+        */
+            }
+
+
+            .imageRow {
+                padding: 20px; 
+                border: 3px black double ; 
+                border-radius:50px;
+                margin: 10px;
+                /*
+            I used the .imgRow css property to give the the text and video/images a black border.
+        */
+            }
+            
+            img {
+                width: 50%;
+                margin: 10px;
+            }
+         
+       </style>
+
+        <div class="clearFloat imageRow">
+            <video controls>
+                <source src="video/favpage.mp4" type="video/mp4">
+            </video>
+            <p>In my opinion, I think that page shows off my strengths the most because you can see that the American flag conveys the change in American history (the first black to attend an all-white school). In terms of editing the American flag you can see that I am familiar with using photoshops tools such as the rectangle tool to create the rectangles and the custom shape tool to create the stars. I was also able to experiment with the layers changing the opacity and changing the layer to a dissolve. Another reason that I think this page stands out is because of the quote included by Rubys' mother because it speaks volumes. She told Ruby to hold her head up high, precisely what she did. </p>
+             <!-- I used the div element to add a video showing my favourite page of my interactive narritive -->
+        </div>
+
+        <h2>Photograghy editing process</h2>
+         <!-- this is the first sub heading of my page-->
+
+        <div class="clearFloat imageRow">
+            
+            <img src="img/flagss.png" style="float:right">
+            <p>I opened up a new project on Photopea and used the rectangle tool to draw a rectangle in the top left hand corner. I then double clicked on shape 1 and changed the colour of the rectangle to navy blue.</p>
+            <!-- I used the div element add the first screen shot which I floated to the right hand side so that the text would be on the left -->
+        </div>
+
+        <div class="clearFloat imageRow">
+            
+            <img src="img/flagss1.png" style="float:left">
+            <p>After that I drew rectangles with the rectangle tool around the blue rectangle and then double clicked on the shape and changed the colour either to white or red.</p>
+             <!-- I used the div element add the second screen shot which I floated to the left hand side so that the text would be on the right -->
+        </div>
+
+        <div class="clearFloat imageRow">
+            
+            <img src="img/flagss2.png" style="float:right">
+            <p>With the custom shape tool I drew eight stars into the blue rectangle. I then went onto “File” and exported this as a PNG.</p>
+             <!-- I used the div element add the third screen shot which I floated to the right hand side so that the text would be on the left -->
+        </div>
+
+        <div class="clearFloat imageRow">
+            
+            <img src="img/flagss3.png" style="float:left">
+            <p>In a new project I changed this layer to a dissolve and changed the opacity to 80% to give the flag this sparkly effect.</p>
+            <!-- I used the div element add the fourth screen shot which I floated to the left hand side so that the text would be on the right -->
+        </div>
+
+        <h2>Sound Effect Practical Experiment </h2>
+        <!-- this is the second sub heading of my page-->
+        
+        <p> In order to create my own sound effects for my interactive narrative I had to do complete some research. </p>
+        
+        <h3>Rain </h3>
+        <audio controls>
+            <source src="audio/Rainsoundeffect.m4a" type="audio/mpeg">
+        </audio>
+        <div>
+     <a  href="https://www.youtube.com/watch?v=5pkSQqPpNAY">How to create a rain storm with your hands</a>
+        </div>
+        <p> This youtube video taught me that you can create a rain sound effect by having one person clicking their fingers, one perosn rubbing their hands together and one person tapping my knees. This didn't end up working for me so instead o got one person to tap their fingers on a cardboard box and a I got another person to click their fingers. This resulted in being more successful as it sounded more natural. </p>
+        <!-- I used the audio element to add a rain sound effect and the used the div element to add a link to show how I created that effect. -->
+
+        <h3>Bones cracking </h3>
+        <audio controls>
+            <source src="audio/Bonescrackingsoundeffect (1).m4a" type="audio/mpeg">
+        </audio>
+        <div>
+    <a href="https://blog.storyblocks.com/inspiration/foley-sfx-everyday-household-objects/">How to create a sound effect of bones breaking by using everyday household items</a>
+        </div>
+        <p>I created this sound effect by taking a bunch of celery and holding the stalks together and then snapping them in half.</p>
+         <!-- I used the audio element to add a bones cracking sound effect and the used the div element to add a link to show how I created that effect. -->
+
+        <h3>Heartbeat </h3>
+        <audio controls>
+            <source src="audio/Heartbeatsoundeffect.m4a" type="audio/mpeg">
+        </audio>
+        <div>
+    <a href="https://www.epicsound.com/2013/04/heartbeat/">How to create a heartbeat sound effect</a>
+        </div>
+        <p>This YouTube video showed me that you can create this sound effect using a large plastic trash can. The plastic popping in and out can create two distinct in/out “pumping” sounds. I didn't have a plastic trash so I came up with an idea to used a jam lid as an alternative. This worked out to work out fine as I was able to push the lid in and out to create the same distinct pumping sounds.
+         </p>
+ <!-- I used the audio element to add a heartbeat sound effect and the used the div element to add a link to show how I created that effect. -->
+
+ <a class="buttonLink"  href="https://chantalnerima.wixsite.com/thelifeofrubybridges">Click here to watch my interactive narrative</a>
+<!-- I added a href to link the second page to my interactive narritive -->
+
+</body>
+</html>
